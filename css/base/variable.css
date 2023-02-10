@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-color: none;
+  background-color: #2563EB;
+  color: #FAF4F4;
+  display: inline-block;
+}
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*# sourceMappingURL=variable.css.map */

@@ -1,0 +1,80 @@
+.home {
+    .inner-home {
+        background-image: $grediantColor;
+    }
+    .container {
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0px 50px 0px;
+        .container1-form {
+            background-color: $primary-text;
+            width: 30%;
+            padding: 50px 50px;
+            border-radius: 30px;
+            .form1 {
+                #car-select {
+                    width: 100%;
+                    color: $primary-text;
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    border-radius: 10px;
+                    outline: none;
+                    option {
+                        color: $primary-text;
+                    }
+                }
+                .loco {
+                    label {
+                        font-size: 22px;
+                        color: $white-text;
+                        width: 70%;
+                        i {
+                            font-size: 30px;
+                            padding: 10px 10px 10px 0px;
+                            color: $primary;
+                        }
+                    }
+                    #location-select {
+                        width: 100%;
+                        padding: 10px 20px;
+                        color: $primary-text;
+                        font-size: 16px;
+                        border-radius: 10px;
+                        outline: none;
+                    }
+                    input {
+                        width: 90%;
+                        padding: 5px 10px;
+                        color: $primary-text;
+                        font-size: 14px;
+                        border-radius: 10px;
+                        outline: none;
+                    }
+                }
+                .btn {
+                    margin-top: 20px;
+                    border: none;
+                }
+            }
+        }
+        .container1-car {
+            h1 {
+                color: white;
+                font-size: 40px;
+                font-weight: 900;
+            }
+            h2 {
+                color: $secondary-text;
+                font-size: 24px;
+            }
+            .carcover-fig {
+                // width: 100%;
+                img {
+                    width: 700px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.car-model {
+    h1 {
+        text-align: center;
+        font-size: 42px;
+    }
+    .model-flex-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        .model-name {
+            background-color: $primary-text;
+            li {
+                text-align: center;
+                color: white;
+                font-size: 18px;
+                cursor: pointer;
+                padding: 10px;
+            }
+        }
+        .model {
+            .model-wrap {
+                display: flex;
+                justify-content: flex-end;
+                img {
+                    // width: 100%
+                }
+                .table {
+                    padding-left: 50px;
+                    line-height: 20px;
+                }
+                table,
+                th,
+                td {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    padding: 10px;
+                    background-color: #726c6e;
+                    color: aliceblue;
+                }
+                .reserve {
+                    background-color: $primary;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.earn-with-us {
+    h1 {
+        text-align: center;
+        font-size: 42px;
+    }
+    .earn-flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    form {
+        background-color: $primary-text;
+        padding: 50px;
+        border-radius: 20px;
+        h2 {
+            text-align: center;
+            font-size: 22px;
+            color: $white-text;
+        }
+        label {
+            font-size: 18px;
+            color: $white-text;
+        }
+        input {
+            width: 100%;
+            font-size: 18px;
+        }
+        select {
+            width: 100%;
+            font-size: 18px;
+        }
+        .btn {
+            width: 100%;
+            margin: auto;
+            border: none;
+        }
+    }
+}

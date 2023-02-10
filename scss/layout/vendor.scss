@@ -1,0 +1,33 @@
+.vendor {
+    .inner-vendor {
+        margin: 100px 0px;
+        background-image: $grediantColor;
+        .container {
+            padding: 30px 0px;
+            .vendor-flex {
+                display: flex;
+                justify-content: space-between;
+                .content {
+                    width: 45%;
+                    h1 {
+                        font-size: 32px;
+                        color: $white-text;
+                    }
+                    p {
+                        font-size: 22px;
+                        color: $secondary-text;
+                    }
+                }
+                .vendor-form {
+                    form {
+                        background-color: black;
+                        padding: 50px 80px;
+                        label {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+// page base -----------
+@import "base/variable";
+@import "base/typography";
+// page layout-----------
+@import "layout/header";
+@import "layout/footer";
+@import "layout/home";
+@import "layout/services";
+@import "layout/model";
+@import "layout/earn";
+@import "layout/vendor";
+// @import "layout/home";
+// @import "layout/banner-1";
+// @import "layout/featured-vendors";
+// @import "layout/boost-business";
+// @import "layout/profile-header";
+// @import "layout/profile";
